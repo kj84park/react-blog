@@ -51,17 +51,19 @@ class Contact extends Component {
                                 id="f46N8-T0Jmw"
                                 title="Video: APAC 2021: Open Source LINE FIDO2 Server Overview"
                             />
-                            <h4 className="widget-title"> </h4>
+                            <p/>
                             <LiteYouTubeEmbed
                                 id="JRu6IVSPEzE"
                                 title="Open source contribution Starting with LINE FIDO2 Server"
                             />
+                            <p/>
                             <h4 className="widget-title">YOUNGGAM-TV</h4>
                             <LiteYouTubeEmbed
                                 id="KYPk2LJRA7A"
                                 params="&list=PLXYDdTyno5RCBoXcGz2zj0CQILoyVdIlT"
                                 title="YOUNGGAM-TV"
                             />
+                            <p/>
                         </div>
                     </Slide>
 
