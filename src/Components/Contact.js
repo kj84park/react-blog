@@ -1,5 +1,17 @@
 import React, {Component} from "react";
 import {Fade, Slide} from "react-reveal";
+import {
+    TwitterTimelineEmbed,
+    TwitterShareButton,
+    TwitterFollowButton,
+    TwitterHashtagButton,
+    TwitterMentionButton,
+    TwitterTweetEmbed,
+    TwitterMomentShare,
+    TwitterDMButton,
+    TwitterVideoEmbed,
+    TwitterOnAirButton
+} from 'react-twitter-embed';
 
 class Contact extends Component {
     render() {
@@ -105,28 +117,22 @@ class Contact extends Component {
 
                     <Slide right duration={1000}>
                         <aside className="four columns footer-widgets">
-                            <div className="widget widget_tweets">
-                                <h4 className="widget-title">Latest Tweets</h4>
-                                <ul id="twitter">
-                                    <li>
-                                        <a className="twitter-timeline"
-                                           href="https://twitter.com/OwenKj00?ref_src=twsrc%5Etfw">Tweets by
-                                            OwenKj00</a>
-                                        <script
-                                            async src="https://platform.twitter.com/widgets.js"
-                                            charSet="utf-8"></script>
-                                    </li>
-                                    <li>
+                            {/*<div className="widget widget_tweets">*/}
+                            <h4 className="widget-title">Latest My Tweets</h4>
+                            <TwitterTimelineEmbed
+                                sourceType="profile"
+                                screenName="OwenKj00"
+                                options={{height: 400}}
+                            />
+                            <h4 className="widget-title">Tweets related to me</h4>
+                            <TwitterTweetEmbed
+                                tweetId={'1462933919506989059'}
+                            />
+                            <TwitterTweetEmbed
+                                tweetId={'1445640238697566219'}
+                            />
 
-                                        <a href="https://twitter.com/intent/tweet?screen_name=OwenKj00&ref_src=twsrc%5Etfw"
-                                           className="twitter-mention-button" data-show-count="false">Tweet to
-                                            @OwenKj00</a>
-                                        <script async
-                                                src="https://platform.twitter.com/widgets.js"
-                                                charSet="utf-8"></script>
-                                    </li>
-                                </ul>
-                            </div>
+                            {/*</div>*/}
                         </aside>
                     </Slide>
                 </div>
