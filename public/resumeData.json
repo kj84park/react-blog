@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Welcome to KyungJoon's Space",
-    "description":"### Unfinished yet ###",
+    "description":"### Currently under construction ###",
     "image":"profilepic.png",
     "bio":"I am currently working as a security engineer at LINE+, and I also like mobile and web development.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -52,7 +52,7 @@
         "school":"National Hanbat University",
         "degree":"Master of Information and Communications Engineering",
         "graduated":"February 2013",
-        "description":"Researched zigbee protocol spec and s/w stack.\n Developed and maintained ESL (Electronic Shelf Label) server "
+        "description":"Researched zigbee protocol spec and s/w stack.\n Developed and maintained ESL (Electronic Shelf Label) server."
       },
       {
         "school":"National Hanbat University",
@@ -72,7 +72,7 @@
         "company":"SAMSUNG SDS",
         "title":"Software Engineer",
         "years":"February 2013 - December 2020",
-        "description":"Mainly developed a mobile client and several demo apps for FIDO authentication."
+        "description":"Mainly developed a Android/iOS mobile clients and several demo apps for FIDO authentication."
       }
     ],
     "skills":[
