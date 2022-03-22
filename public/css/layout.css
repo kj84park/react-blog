@@ -426,7 +426,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper .columns { margin:30px; width: 520px; height: 405px}
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;

@@ -1,184 +1,196 @@
 {
   "main": {
-    "name":"Welcome to KyungJoon's Space",
-    "description":"### Currently under construction ###",
-    "image":"profilepic.png",
-    "bio":"I am currently working as a security engineer at LINE+, and I also like mobile and web development.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Welcome to KyungJoon's Space",
+    "description": "### Currently under construction ###",
+    "image": "profilepic.png",
+    "bio": "I am currently working as a security engineer at LINE+, and I also like mobile and web development.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "netom@naver.com",
     "phone": "",
-    "github":"https://github.com/kj84park",
-    "project":"https://github.com/line/line-fido2-server",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
+    "github": "https://github.com/kj84park",
+    "project": "https://github.com/line/line-fido2-server",
+    "address": {
+      "street": "(Your Street)",
+      "city": "(Your City)",
+      "state": "(Your State)",
       "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://www.facebook.com/kyungjoonowen.park",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/kyungjoonowen.park",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"https://twitter.com/OwenKj00",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/OwenKj00",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/kj84park/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/kj84park/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"https://www.instagram.com/kyungjoonpark/",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "https://www.instagram.com/kyungjoonpark/",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/kj84park",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/kj84park",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"My skills at a glance",
-    "education":[
+  "resume": {
+    "skillmessage": "My skills at a glance",
+    "education": [
       {
-        "school":"National Hanbat University",
-        "degree":"Master of Information and Communications Engineering",
-        "graduated":"February 2013",
-        "description":"Researched zigbee protocol spec and s/w stack.\n Developed and maintained ESL (Electronic Shelf Label) server."
+        "school": "National Hanbat University",
+        "degree": "Master of Information and Communications Engineering",
+        "graduated": "February 2013",
+        "description": "Researched zigbee protocol spec and s/w stack.\n Developed and maintained ESL (Electronic Shelf Label) server."
       },
       {
-        "school":"National Hanbat University",
-        "degree":"Bachelor of Science in Radio Engineering",
-        "graduated":"February 2011",
-        "description":""
+        "school": "National Hanbat University",
+        "degree": "Bachelor of Science in Radio Engineering",
+        "graduated": "February 2011",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"LINE Plus Corp.",
-        "title":"Security Engineer",
-        "years":"January 2021 - Present",
-        "description":"Researching and development Fast Identity Online (FIDO) technology and Maintaining OpenSource LINE FIDO2 Server, Working on security consulting."
+        "company": "LINE Plus Corp.",
+        "title": "Security Engineer",
+        "years": "January 2021 - Present",
+        "description": "Researching and development Fast Identity Online (FIDO) technology and Maintaining OpenSource LINE FIDO2 Server, Working on security consulting."
       },
       {
-        "company":"SAMSUNG SDS",
-        "title":"Software Engineer",
-        "years":"February 2013 - December 2020",
-        "description":"Mainly developed Android/iOS mobile clients and several demo apps for FIDO authentication."
+        "company": "SAMSUNG SDS",
+        "title": "Software Engineer",
+        "years": "February 2013 - December 2020",
+        "description": "Mainly developed Android/iOS mobile clients and several demo apps for FIDO authentication."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Android",
-        "level":"70%"
+        "name": "Android",
+        "level": "70%"
       },
       {
-        "name":"iOS",
-        "level":"50%"
+        "name": "iOS",
+        "level": "50%"
       },
       {
-        "name":"Flutter",
-        "level":"30%"
+        "name": "Flutter",
+        "level": "30%"
       },
       {
-        "name":"JAVA",
-        "level":"90%"
+        "name": "JAVA",
+        "level": "90%"
       },
       {
-        "name":"Kotlin",
-        "level":"80%"
+        "name": "Kotlin",
+        "level": "80%"
       },
       {
-        "name":"Objective-C",
-        "level":"50%"
+        "name": "Objective-C",
+        "level": "50%"
       },
       {
-        "name":"React",
-        "level":"30%"
+        "name": "React",
+        "level": "30%"
       }
     ]
   },
-  "portfolio":{
+  "ideas": {
+    "links": [
+      {
+        "title": "Ausum",
+        "src": "https://cards.producthunt.com/cards/posts/336044?v=1"
+      },
+      {
+        "title": "Bungee",
+        "src": "https://cards.producthunt.com/cards/posts/336906?v=1"
+      }
+    ]
+  },
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpeg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "01.jpeg",
+        "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpeg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "02.jpeg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpeg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpeg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpeg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpeg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpeg",
-        "url":"http://www.smirkspace.com"
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpeg",
+        "url": "http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpeg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpeg",
+        "url": "https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"07.jpeg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "07.jpeg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpeg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "02.jpeg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpeg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "03.jpeg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpeg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "04.jpeg",
+        "url": "http://www.timbakerdev.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpeg",
-        "url":"http://www.smirkspace.com"
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "05.jpeg",
+        "url": "http://www.smirkspace.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpeg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "06.jpeg",
+        "url": "https://www.canadianwanderlust.com"
       }
     ]
   }
