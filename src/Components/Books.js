@@ -6,6 +6,11 @@ import HeaderForBooks from "./HeaderForBooks";
 import $ from "jquery";
 
 const Books = (props) => {
+  // const posts = Array.of({
+  //   id: Number,
+  //   file: String,
+  //   contents: String,
+  // });
   const [posts, setPost] = useState([
     {
       id: 0,
@@ -16,6 +21,7 @@ const Books = (props) => {
 
   const addPost = (post) => {
     setPost([...posts, post]);
+    // posts.push(post);
   };
 
   useEffect(() => {
@@ -31,7 +37,7 @@ const Books = (props) => {
               import(`../../public/posts/${book.fileName}`)
                 .then((res) => {
                   fetch(res.default)
-                    .then((res) => res.text())
+                    .then((response) => response.text())
                     .then((res) => {
                       addPost({
                         id: Number(book.id),
@@ -41,8 +47,9 @@ const Books = (props) => {
                     })
                     .catch((err) => console.log(err));
                 })
-                .catch((err) => console.log(err));
-            });
+                  .catch((err) => console.log("########## : =>" + err))
+            })
+
         }.bind(this),
         error: function (xhr, status, err) {
           console.log(err);
@@ -52,28 +59,30 @@ const Books = (props) => {
     };
     getBookListJson();
   }, []);
+  console.log("# Posts length : "+posts.length);
   return (
-      <div className="App">
-        <HeaderForBooks />
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="row">
-                {posts.map((post) => (
-                  <div className="col-md-4" key={post.id}>
-                    <div className="card">
-                      <div className="card-body">
-                        <h5 className="card-title">{post.fileName}</h5>
-                        <Markdown>{post.contents}</Markdown>
-                      </div>
+    <div className="App">
+      <HeaderForBooks />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="row">
+              {
+                posts.map((post) => (
+                <div className="col-md-4" key={post.id}>
+                  <div className="card">
+                    <div className="card-body">
+                      <h5 className="card-title">{post.fileName}</h5>
+                      <Markdown>{post.contents}</Markdown>
                     </div>
                   </div>
-                ))}
-              </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
-        <Footer data={props.state.resumeData.main} />
+      </div>
+      <Footer data={props.state.resumeData.main} />
     </div>
   );
 };
