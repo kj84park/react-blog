@@ -1,17 +1,6 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
-import {
-  TwitterTimelineEmbed,
-  TwitterShareButton,
-  TwitterFollowButton,
-  TwitterHashtagButton,
-  TwitterMentionButton,
-  TwitterTweetEmbed,
-  TwitterMomentShare,
-  TwitterDMButton,
-  TwitterVideoEmbed,
-  TwitterOnAirButton,
-} from "react-twitter-embed";
+import { TwitterTimelineEmbed, TwitterTweetEmbed } from "react-twitter-embed";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
@@ -19,13 +8,13 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
+    // const name = this.props.data.name;
+    // const street = this.props.data.address.street;
+    // const city = this.props.data.address.city;
+    // const state = this.props.data.address.state;
+    // const zip = this.props.data.address.zip;
+    // const phone = this.props.data.phone;
+    // const message = this.props.data.contactmessage;
 
     return (
       <section id="contact">

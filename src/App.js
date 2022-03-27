@@ -2,12 +2,16 @@ import React, { Component } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Contact from "./Components/Contact";
-import Ideas from "./Components/Ideas";
+// import Header from "./Components/Header";
+// import Footer from "./Components/Footer";
+// import About from "./Components/About";
+// import Resume from "./Components/Resume";
+// import Contact from "./Components/Contact";
+// import Ideas from "./Components/Ideas";
+import Books from "./Components/Books";
+import { Route, Routes } from "react-router-dom";
+
+import Main from "./Components/Main";
 
 class App extends Component {
   constructor(props) {
@@ -42,15 +46,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Contact data={this.state.resumeData.main} />
-        {/*<Portfolio data={this.state.resumeData.portfolio} />*/}
-        <Ideas data={this.state.resumeData.ideas} />
-        <Footer data={this.state.resumeData.main} />
-      </div>
+      <Routes>
+        <Route path="/" element={<Main state={this.state}/>} />
+        <Route path="/books" element={<Books state={this.state}/>} />
+        <Route path="*" element={<Main state={this.state}/>} />
+      </Routes>
     );
   }
 }

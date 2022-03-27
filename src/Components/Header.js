@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import {Link} from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -49,9 +50,15 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <a className="smoothscroll" href="#ideas">
                 Ideas
               </a>
+            </li>
+
+            <li>
+              <Link to="/books">
+                Review books
+              </Link>
             </li>
           </ul>
         </nav>
