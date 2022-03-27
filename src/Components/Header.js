@@ -56,7 +56,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <Link to="/books">
+              <Link to="/react-blog/books">
                 Review books
               </Link>
             </li>

@@ -47,9 +47,9 @@ class App extends Component {
   render() {
     return (
       <Routes>
-        <Route path="/" element={<Main state={this.state}/>} />
-        <Route path="/books" element={<Books state={this.state}/>} />
-        <Route path="*" element={<Main state={this.state}/>} />
+        <Route path="/react-blog/" element={<Main state={this.state}/>} />
+        <Route path="/react-blog/books" element={<Books state={this.state}/>} />
+        <Route path="/react-blog/*" element={<Main state={this.state}/>} />
       </Routes>
     );
   }

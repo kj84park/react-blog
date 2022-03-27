@@ -11,27 +11,27 @@ class HeaderForBooks extends Component {
         <nav id="nav-wrap">
           <ul id="nav" className="nav">
             <li className="current">
-              <HashLink to="/#home">HOME</HashLink>
+              <HashLink to="/react-blog/#home">HOME</HashLink>
             </li>
 
             <li>
-              <HashLink to="/#about">About</HashLink>
+              <HashLink to="/react-blog/#about">About</HashLink>
             </li>
 
             <li>
-              <HashLink to="/#resume">Career</HashLink>
+              <HashLink to="/react-blog/#resume">Career</HashLink>
             </li>
 
             <li>
-              <HashLink to="/#contact">Works</HashLink>
+              <HashLink to="/react-blog/#contact">Works</HashLink>
             </li>
 
             <li>
-              <HashLink to="/#ideas">Ideas</HashLink>
+              <HashLink to="/react-blog/#ideas">Ideas</HashLink>
             </li>
 
             <li>
-              <Link to="/books">Review books</Link>
+              <Link to="/react-blog/books">Review books</Link>
             </li>
           </ul>
         </nav>
