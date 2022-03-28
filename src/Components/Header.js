@@ -55,11 +55,11 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
-              <Link to="/react-blog/books">
-                Review books
-              </Link>
-            </li>
+            {/*<li>*/}
+            {/*  <Link to="/react-blog/books">*/}
+            {/*    Review books*/}
+            {/*  </Link>*/}
+            {/*</li>*/}
           </ul>
         </nav>
 
